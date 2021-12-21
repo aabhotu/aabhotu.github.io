@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    margin: auto;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.h{
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+}
+.box{
+    height: 50px;
+    width: 50px;
+    background-color: orange;
+    align-self: center;
+}
+.box-h1{
+    align-content: center;
+}
+.box-h2{
+    align-items: center;
+}
+.i{
+    margin-right: 10px;
+}
+.t{
+    margin-right: 10px;
+}
+.box-t1{
+    display: flex;
+}
+.box-t2{
+    margin-left: 72px;
+}
+

@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 10px 5px;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+.container{
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: lightblue;
+    border-radius: 10px;
+    
+}
+.header{
+    justify-content: space-between;
+    padding: 10px;
+    display: flex;
+}
+.header h1{
+    font-size: 2.4rem;
+}
+.google{
+    border: 1px solid #bebebe;
+    width: 90%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    font-size: 5mm;
+    opacity: 0.8;
+    margin: 10px 20px;
+}
+hr {
+  margin-bottom: 14px;
+  border-color: #fff;
+  padding: 0;
+}
+form h3{
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+form .email{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #bebebe;
+    border-radius: 5px;
+}
+form .email:focus{
+    outline: none;
+}
+form .pass {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    height: 40px;
+    display: flex;
+}
+form .pass .two{
+    border-radius: 5px;
+    width: 100%;
+    padding: 20px;
+    border: 0;
+    outline: none;
+}
+form.remember{
+    display: flex;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+form .remember label{
+    font-size: 5mm;
+}
+form .button1{
+    width: 100%;
+    font-size: 5mm;
+    color: #fff;
+    font-weight: 500;
+    border: 0;
+    border-radius: 5px;
+    background-color: #367dff;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+form .button2{
+    width: 100%;
+    font-size: 5mm;
+    color: blue;
+    font-weight: 500;
+    border: 0;
+    cursor: pointer;
+    background-color: lightblue;
+    margin-bottom: 10px;
+}
+.footer{
+    text-align: center;
+}
+.footer p{
+    font-size: 5mm;
+    opacity: 0.8;
+}
+.footer a{
+    font-size: 5mm;
+    color: blue;
+    font-weight: 500;
+}
+

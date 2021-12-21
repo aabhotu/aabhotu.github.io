@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="main.css">
+    <title>Log in</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Log in</h1>
+            <i class="far fa-times-circle"></i>
+        </div>
+        <button class="google"><i class="fab fa-google"></i> Log in with google</button>
+        <hr>
+        <form action="input">
+            <h3>Email</h3>
+            <input type="text" class="email" placeholder="Enter your email">
+            <h3>Password</h3>
+            <div class="pass" style="position: relative;">
+                <input type="password" class="two" placeholder="Password">
+                <i style="position: absolute; right: 4px;" class="fas fa-eye"></i>
+            </div>
+            <div class="remember">
+               <input type="checkbox" id="check">
+                <label for="check">Remember me</label>
+            </div>
+            
+            <button class="btn button1">Log in</button>
+            <button class="btn button2">Forgot Password?</button>
+           
+            <hr>
+        </form>
+        <div class="footer">
+            <p>Don't have an account?</p>
+            <a href="#">Sign up</a>
+        </div>
+    </div>
+</body>
+</html>
